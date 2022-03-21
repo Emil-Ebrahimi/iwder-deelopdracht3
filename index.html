@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <title>Cards</title>
+</head>
+
+<body>
+    <main>
+<div id="filters">
+    <h2>Mhmmm Filters</h2>
+    <label for="voorGerecht">voorGerecht</label>
+    <input  type="checkbox" id="voorGerecht" onclick="checkTheChecks()">
+    <label for="hoofdGerecht">hoofdGerecht</label>
+    <input type="checkbox" id="hoofdGerecht" onclick="checkTheChecks()">
+    <label for="dessert">dessert</label>
+    <input type="checkbox" id="dessert" onclick="checkTheChecks()"> 
+    <label for="favorieten">Favorieten</label>
+    <input type="checkbox" id="favorieten" onclick="checkTheChecks()"> 
+</div>
+
+        <header>Voorgerecht</header>
+
+        <section class="gerechten" id="voorGerechtSectie" data-voorgerecht="true">
+        <article class="card">
+            <input type="image" class="btn" src="images/heartless.png">
+            <figure>
+                <img src="images/v1.jpg" alt="kuku">
+                <figcaption>Kuku</figcaption>
+            </figure>
+            <h2>kaart 1</h2>
+        </article>
+        <article class="card">
+            <input type="image" class="btn" data-chicken src="images/heartless.png">
+            <figure>
+                <img src="images/v2.jpg" alt="chicken">
+                <figcaption>chicken</figcaption>
+            </figure>
+            <h2>kaart 2</h2>
+        </article>
+        <article class="card">
+            <input type="image" class="btn" data-tartaar src="images/heartless.png">
+            <figure>
+                <img src="images/v3.jpg" alt="tartaar">
+                <figcaption>tartaar</figcaption>
+            </figure>
+            <h2>kaart 3</h2>
+        </article>
+    </section>
+
+
+
+    <header>Hoofdgerecht</header>
+
+        <section class="gerechten" id="hoofdGerechtSectie" data-hoofdgerecht="true">
+        <article class="card">
+            <input type="image" class="btn" src="images/heartless.png">
+            <figure>
+                <img src="images/h1.jpg" alt="Biefstuk">
+                <figcaption>biefstuk</figcaption>
+            </figure>
+            <h2>kaart 1</h2>
+        </article>
+        <article class="card">
+            <figure>
+                <img src="images/h2.jpg" alt="Pasta">
+                <figcaption>Pasta</figcaption>
+            </figure>
+            <h2>kaart 2</h2>
+        </article>
+        <article class="card">
+            <figure>
+                <img src="images/h3.jpg" alt="Chelow kebab">
+                <figcaption>chelow kebab</figcaption>
+            </figure>
+            <h2>kaart 3</h2>
+        </article>
+    </section>
+
+
+
+
+    <header>Dessert</header>
+
+    <section class="gerechten" id="dessertSectie" data-dessert="true">
+
+        <article class="card">
+            <figure>
+                <img src="images/d1.jpg" alt="Ijsje">
+                <figcaption>ijs</figcaption>
+            </figure>
+            <h2>kaart 1</h2>
+        </article>
+        <article class="card">
+            <figure>
+                <img src="images/d2.jpg" alt="mousse">
+                <figcaption>mousse</figcaption>
+            </figure>
+            <h2>kaart 2</h2>
+        </article>
+        <article class="card">
+            <figure>
+                <img src="images/d3.jpg" alt="lekkah man!">
+                <figcaption>gwn lekkah</figcaption>
+            </figure>
+            <h2>kaart 3</h2>
+        </article>
+    </section>
+    </main>
+</body>
+
+</html>
